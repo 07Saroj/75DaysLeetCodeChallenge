@@ -12,12 +12,14 @@ class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         int n=strs.length;
         List<List<String>> result=new ArrayList<>();
-        if(n<=1){
-            List<String> l=new ArrayList<>();
-            l.add(strs[0]);
-            result.add(l);
-            return result;
-        }
+        if(strs == null || strs.length == 0) return new ArrayList<>();
+
+        // if(n<=1){
+        //     List<String> l=new ArrayList<>();
+        //     l.add(strs[0]);
+        //     result.add(l);
+        //     return result;
+        // }
         
         for(int i=0;i<n;i++){
             List<String> l1=new ArrayList<>();
