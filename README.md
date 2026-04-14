@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0155-min-stack](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0232-implement-queue-using-stacks) |
+| [0707-design-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0707-design-linked-list) |
 ## Queue
 |  |
 | ------- |
@@ -153,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0206-reverse-linked-list) |
+| [0707-design-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0707-design-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
 |  |
