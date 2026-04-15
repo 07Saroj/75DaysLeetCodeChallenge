@@ -14,9 +14,7 @@
  * }
  */
 class Solution {
-    // int sum=0;
-    // int leftsum=0;
-    // int rightsum=0;
+    
     public int sumNumbers(TreeNode root) {
         return calculateSum(root,0);
     }
