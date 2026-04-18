@@ -27,6 +27,7 @@ class Solution {
         }
 
         return traverse(root.left,targetSum,sum) || traverse(root.right,targetSum,sum);
+        //return
 
     }
 }
