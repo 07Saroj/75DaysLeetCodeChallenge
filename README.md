@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0643-maximum-average-subarray-i](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0643-maximum-average-subarray-i) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0739-daily-temperatures) |
@@ -125,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0300-longest-increasing-subsequence) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Sliding Window
 |  |
 | ------- |
@@ -288,4 +290,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0572-subtree-of-another-tree) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Segment Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
