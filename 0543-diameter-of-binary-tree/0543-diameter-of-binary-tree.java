@@ -21,6 +21,7 @@ class Solution {
         maxDepth(root);
         return maxd;
     }
+    //recursion
     public int maxDepth(TreeNode root) {
         if(root==null) return 0;
         int left=maxDepth(root.left);
