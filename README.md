@@ -147,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
 | [0739-daily-temperatures](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0739-daily-temperatures) |
 | [1019-next-greater-node-in-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1019-next-greater-node-in-linked-list) |
+| [2487-remove-nodes-from-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Design
 |  |
 | ------- |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0739-daily-temperatures](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0739-daily-temperatures) |
 | [1019-next-greater-node-in-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1019-next-greater-node-in-linked-list) |
+| [2487-remove-nodes-from-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Matrix
 |  |
 | ------- |
@@ -187,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0707-design-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0707-design-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0876-middle-of-the-linked-list) |
 | [1019-next-greater-node-in-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1019-next-greater-node-in-linked-list) |
+| [2487-remove-nodes-from-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2487-remove-nodes-from-linked-list) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 ## Recursion
 |  |
@@ -195,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
+| [2487-remove-nodes-from-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2487-remove-nodes-from-linked-list) |
 ## Number Theory
 |  |
 | ------- |
