@@ -21,7 +21,7 @@ class Solution {
                 r=mid;
             }
         }
-        int idx=l;
+        int idx=r;
         System.out.println(idx);
         int findIdx=binarySearch(target,mountainArr,0, idx,true);
 
