@@ -42,11 +42,11 @@ class Solution {
 
         while(l<=r){
             int mid=l+(r-l)/2;
-            
-            if(mountainArr.get(mid)==target){
+            int val=mountainArr.get(mid);
+            if(val==target){
                 return mid;
             }
-            else if(mountainArr.get(mid)<target){
+            else if(val<target){
                 l=mid+1;
             }else{
                 r=mid-1;
