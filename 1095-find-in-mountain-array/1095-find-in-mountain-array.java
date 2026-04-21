@@ -14,7 +14,8 @@ class Solution {
         int l=0;
         int r=len-1;
         while(l<r){
-            int mid=l+(r-l)/2;
+            // int mid=l+(r-l)/2;
+            int mid = (l + r) / 2;
             if(mountainArr.get(mid)<mountainArr.get(mid+1)){
                 l=mid+1;
             }else{
@@ -32,10 +33,9 @@ class Solution {
         
     }
     int binarySearch(int target, MountainArray mountainArr,int l,int r,boolean ascen){
-        
-
         while(l<=r){
-            int mid=l+(r-l)/2;
+            // int mid=l+(r-l)/2;
+            int mid = (l + r) / 2;
             int val=mountainArr.get(mid);
             if(val==target){
                 return mid;
@@ -55,14 +55,4 @@ class Solution {
 
         return -1;
     }
-    // int binarySearchDesc(int target,MountainArray mountainArr, int l, int r) {
-    //     while (l <= r) {
-    //         int mid = l + (r - l) / 2;
-    //         int val = mountainArr.get(mid);
-    //         if (val == target) return mid;
-    //         if (val > target) l = mid + 1; // Reverse logic: target is to the right
-    //         else r = mid - 1;
-    //     }
-    //     return -1;
-    // }
 }
