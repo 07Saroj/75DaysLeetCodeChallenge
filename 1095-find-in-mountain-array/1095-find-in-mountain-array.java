@@ -13,12 +13,6 @@ class Solution {
         
         int l=0;
         int r=len-1;
-        // for(int i=1;i<len;i++){
-        //     if(mountainArr.get(i)>mountainArr.get(i-1)){
-        //         idx=i;
-        //     }
-        // }
-
         while(l<r){
             int mid=l+(r-l)/2;
             if(mountainArr.get(mid)<mountainArr.get(mid+1)){
@@ -29,15 +23,15 @@ class Solution {
         }
         int idx=l;
         System.out.println(idx);
-        int findIdx=binarySearch(target,mountainArr,0, idx);
+        int findIdx=binarySearch(target,mountainArr,0, idx,true);
 
         if(findIdx==-1){
-            findIdx=binarySearchDesc(target,mountainArr, idx+1,len-1);
+            findIdx=binarySearch(target,mountainArr, idx+1,len-1,false);
         }
         return findIdx;
         
     }
-    int binarySearch(int target, MountainArray mountainArr,int l,int r){
+    int binarySearch(int target, MountainArray mountainArr,int l,int r,boolean ascen){
         
 
         while(l<=r){
@@ -46,23 +40,29 @@ class Solution {
             if(val==target){
                 return mid;
             }
-            else if(val<target){
+            if(ascen){
+                if(val<target){
                 l=mid+1;
+                }else{
+                    r=mid-1;
+                }
             }else{
-                r=mid-1;
+                if (val > target) l = mid + 1; 
+                else r = mid - 1;
             }
+            
         }
 
         return -1;
     }
-    int binarySearchDesc(int target,MountainArray mountainArr, int l, int r) {
-        while (l <= r) {
-            int mid = l + (r - l) / 2;
-            int val = mountainArr.get(mid);
-            if (val == target) return mid;
-            if (val > target) l = mid + 1; // Reverse logic: target is to the right
-            else r = mid - 1;
-        }
-        return -1;
-    }
+    // int binarySearchDesc(int target,MountainArray mountainArr, int l, int r) {
+    //     while (l <= r) {
+    //         int mid = l + (r - l) / 2;
+    //         int val = mountainArr.get(mid);
+    //         if (val == target) return mid;
+    //         if (val > target) l = mid + 1; // Reverse logic: target is to the right
+    //         else r = mid - 1;
+    //     }
+    //     return -1;
+    // }
 }
