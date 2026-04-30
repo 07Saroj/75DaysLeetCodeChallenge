@@ -1,11 +1,16 @@
 class Solution {
     public int longestConsecutive(int[] nums) {
+
+        int n = nums.length;
+        if(n == 0) return 0;
+        int len=1;
+        
         Set<Integer> numSet = new HashSet<>();
         for(int ele :nums){
             numSet.add(ele);
         }
         
-        int len=0;
+        
         for(int ele: numSet){
             if(!numSet.contains(ele-1)){
                 int currNum=ele;
