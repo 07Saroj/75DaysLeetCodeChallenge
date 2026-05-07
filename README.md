@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0704-binary-search](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0739-daily-temperatures) |
+| [0904-fruit-into-baskets](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0977-squares-of-a-sorted-array) |
 | [1019-next-greater-node-in-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1019-next-greater-node-in-linked-list) |
 | [1095-find-in-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1095-find-in-mountain-array) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0560-subarray-sum-equals-k) |
+| [0904-fruit-into-baskets](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0904-fruit-into-baskets) |
 ## Sorting
 |  |
 | ------- |
@@ -172,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0643-maximum-average-subarray-i) |
+| [0904-fruit-into-baskets](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0904-fruit-into-baskets) |
 ## Stack
 |  |
 | ------- |
