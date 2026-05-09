@@ -2,7 +2,7 @@ class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         
         Map<Integer, Integer> nextGreaterNum=new HashMap<>();
-        Deque<Integer> st= new ArrayDeque<>();
+        Stack<Integer> st= new Stack<>();
 
         for(int i=0;i<nums2.length;i++){
             while(!st.isEmpty() && st.peek()<nums2[i]){
