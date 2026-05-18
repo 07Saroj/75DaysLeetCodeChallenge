@@ -20,6 +20,7 @@ class Solution {
         rightView(root,0);
         return l;
     }
+    //right view function
     void rightView(TreeNode root,int level){
         if(root==null) return;
         if(l.size()==level){
