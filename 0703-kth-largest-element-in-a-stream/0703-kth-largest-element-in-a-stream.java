@@ -5,14 +5,14 @@ class KthLargest {
         this.k=k;
         this.minHeap=new PriorityQueue<>();
         for(int num: nums){
-            add(num);
+            minHeap.offer(num);
         }
     }
     
     public int add(int val) {
         minHeap.offer(val);
 
-        if(minHeap.size()>k){
+        while(minHeap.size()>k){
             minHeap.poll();
         }
 
