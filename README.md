@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-fruit-into-baskets](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0904-fruit-into-baskets) |
 | [0977-squares-of-a-sorted-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0977-squares-of-a-sorted-array) |
 | [1019-next-greater-node-in-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1019-next-greater-node-in-linked-list) |
+| [1046-last-stone-weight](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1046-last-stone-weight) |
 | [1095-find-in-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1095-find-in-mountain-array) |
 ## Hash Table
 |  |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0703-kth-largest-element-in-a-stream) |
+| [1046-last-stone-weight](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1046-last-stone-weight) |
 ## Bucket Sort
 |  |
 | ------- |
