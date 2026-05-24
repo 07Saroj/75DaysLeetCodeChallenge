@@ -3,10 +3,7 @@ class Solution {
         PriorityQueue<Integer> minHeap=new PriorityQueue<>();
         for(int num: nums){
             minHeap.add(num);
-            if(minHeap.size()>k){
-                minHeap.poll();
-            }
-            
+            if(minHeap.size()>k) minHeap.poll();
         }
         return minHeap.peek();
 
