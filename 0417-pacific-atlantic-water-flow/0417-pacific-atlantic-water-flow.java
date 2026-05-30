@@ -1,36 +1,48 @@
 class Solution {
-    private int m, n;
-    private int[][] directions = {{1,0}, {-1,0}, {0,1}, {0,-1}};
-
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
-        m = heights.length;
-        n = heights[0].length;
-        boolean[][] pacific = new boolean[m][n];
-        boolean[][] atlantic = new boolean[m][n];
-        for (int j = 0; j < n; j++) dfs(0, j, heights, pacific);
-        for (int i = 0; i < m; i++) dfs(i, 0, heights, pacific);
-        for (int j = 0; j < n; j++) dfs(m - 1, j, heights, atlantic);
-        for (int i = 0; i < m; i++) dfs(i, n - 1, heights, atlantic);
+        List<List<Integer>> result = new ArrayList<>(); 
+        if(heights==null|| heights.length==0) return result;
 
-        List<List<Integer>> result = new ArrayList<>();
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (pacific[i][j] && atlantic[i][j]) {
-                    result.add(Arrays.asList(i, j));
+        int m= heights.length;
+        int n=heights[0].length;
+
+        boolean[][] pacific=new boolean[m][n];
+        boolean[][] atlantic=new boolean[m][n];
+
+        for(int i=0;i<m;i++){
+            dfs(heights,i,0,pacific,Integer.MIN_VALUE);
+            dfs(heights,i,n-1,atlantic,Integer.MIN_VALUE);
+        }
+        
+        for(int j=0;j<n;j++){
+            dfs(heights,0,j,pacific,Integer.MIN_VALUE);
+            dfs(heights,m-1,j,atlantic,Integer.MIN_VALUE);
+        }
+
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(pacific[i][j] && atlantic[i][j] ){
+                    result.add(Arrays.asList(i,j));
                 }
             }
         }
+
         return result;
+
+
     }
 
-    private void dfs(int i, int j, int[][] heights, boolean[][] visited) {
-        if (visited[i][j]) return;
-        visited[i][j] = true;
-        for (int[] d : directions) {
-            int x = i + d[0], y = j + d[1];
-            if (x < 0 || x >= m || y < 0 || y >= n) continue;
-            if (heights[x][y] < heights[i][j]) continue;
-            dfs(x, y, heights, visited);
+    private void dfs(int[][] heights, int r,int c,boolean[][] visited,int prevHeight){
+
+        if(r<0 || r>=heights.length||c<0|| c>=heights[0].length || visited[r][c] || heights[r][c]<prevHeight){
+            return;
         }
+
+        visited[r][c]=true;
+
+        dfs(heights,r+1,c,visited,heights[r][c]);
+        dfs(heights,r-1,c,visited,heights[r][c]);
+        dfs(heights,r,c+1,visited,heights[r][c]);
+        dfs(heights,r,c-1,visited,heights[r][c]);
     }
 }
