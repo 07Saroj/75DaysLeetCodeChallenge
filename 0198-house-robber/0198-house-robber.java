@@ -1,5 +1,6 @@
 class Solution {
     public int rob(int[] nums) {
+        //space optimized
         int n= nums.length;
         if(n==0) return 0;
         if(n==1) return nums[0];
@@ -13,20 +14,6 @@ class Solution {
             b=curr;
         }
         return b;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         // public int rob(int[] nums) {
         // int n=nums.length;
