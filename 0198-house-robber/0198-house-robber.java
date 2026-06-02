@@ -15,7 +15,7 @@ class Solution {
         }
         return b;
 
-        // public int rob(int[] nums) {
+        
         // int n=nums.length;
         // if(n==0) return 0;
         // if(n==1) return nums[0];
@@ -28,6 +28,6 @@ class Solution {
         //     dp[i]=Math.max(dp[i-1],nums[i]+dp[i-2]);
         // }
         // return dp[n-1];
-    // }
+    
     }
 }
