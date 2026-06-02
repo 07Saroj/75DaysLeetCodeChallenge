@@ -6,14 +6,14 @@ class Solution {
         int zero=0;
         int first=1;
         int sec= 1;
-        int res=0;
+        // int res=0;
         for(int i=3;i<=n;i++){
-            res= zero+ first+ sec;
+            int res= zero+ first+ sec;
             zero=first;
             first=sec;
             sec=res;
         }
-        return res;
+        return sec;
 
 
         // if(n<=0) return 0;
