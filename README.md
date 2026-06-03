@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0084-largest-rectangle-in-histogram) |
@@ -199,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0032-longest-valid-parentheses) |
 | [0062-unique-paths](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -274,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0036-valid-sudoku](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
