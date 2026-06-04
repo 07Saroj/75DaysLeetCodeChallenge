@@ -1,7 +1,7 @@
 class Solution {
-    // private int min(int a,int b, int c){
-    //     return  Math.min(Math.min(a,b),c);
-    // }
+    private int min(int a,int b, int c){
+        return  Math.min(Math.min(a,b),c);
+    }
     public int countSquares(int[][] matrix) {
         int m=matrix.length;
         int n=matrix[0].length;
@@ -13,7 +13,7 @@ class Solution {
                     count+=matrix[i][j];
                 } 
                 else{
-                    matrix[i][j]+=Math.min(Math.min(matrix[i][j-1],matrix[i-1][j]),matrix[i-1][j-1]);
+                    matrix[i][j]+=min(matrix[i][j-1],matrix[i-1][j],matrix[i-1][j-1]);
                     count+=matrix[i][j];
                 }
                   
