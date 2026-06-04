@@ -1,6 +1,6 @@
 class Solution {
     private int min(int a,int b, int c){
-        return  Math.min(Math.min(a,b),c);
+        return  Math.min(a,Math.min(b,c));
     }
     public int countSquares(int[][] matrix) {
         int m=matrix.length;
