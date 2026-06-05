@@ -10,8 +10,8 @@ class Solution {
             if(checkPerfectSquare(i)) dp[i]=1;
             else{
                 int min=Integer.MAX_VALUE;
-                for(int j=1;j*j<=i;j++){
-                    int res=dp[j*j]+dp[i-j*j];
+                for(int j=1;j<=i/2;j++){
+                    int res=dp[j]+dp[i-j];
                     min=Math.min(res,min);
                 }
                 dp[i]=min;
