@@ -209,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0213-house-robber-ii) |
+| [0279-perfect-squares](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0300-longest-increasing-subsequence) |
 | [0509-fibonacci-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0509-fibonacci-number) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -263,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0279-perfect-squares](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0279-perfect-squares) |
 | [0509-fibonacci-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1137-n-th-tribonacci-number) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
@@ -366,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0279-perfect-squares) |
 | [0404-sum-of-left-leaves](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0404-sum-of-left-leaves) |
 | [0417-pacific-atlantic-water-flow](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0417-pacific-atlantic-water-flow) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0530-minimum-absolute-difference-in-bst) |
