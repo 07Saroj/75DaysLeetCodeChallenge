@@ -11,7 +11,7 @@ class Solution {
             else{
                 int min=Integer.MAX_VALUE;
                 for(int j=1;j*j<=i;j++){
-                    int res=dp[j*j]+dp[i-j*j];
+                    int res=1+dp[i-j*j];
                     min=Math.min(res,min);
                 }
                 dp[i]=min;
