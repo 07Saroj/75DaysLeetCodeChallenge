@@ -5,20 +5,29 @@ class Solution {
         return sqrt*sqrt==n;
     }
     public int numSquares(int n) {
-        
         int[] dp=new int[n+1];
-        Arrays.fill(dp,-1);
-        return countSquares(dp,n);
+        for(int i=1;i<=n;i++){
+            if(checkPerfectSquare(i)) dp[i]=1;
+            else{
+                int min=Integer.MAX_VALUE;
+                for(int j=1;j*j<=i;j++){
+                    int res=dp[j*j]+dp[i-j*j];
+                    min=Math.min(res,min);
+                }
+                dp[i]=min;
+            }
+        }
+        return dp[n];
     }
 
-    private int countSquares(int[] dp,int n){
-        if(checkPerfectSquare(n)) return 1; 
-        if(dp[n]!=-1) return dp[n];//**
-        int min =n;
-        for(int i=1;i*i<=n;i++){
-            int res= countSquares(dp,i*i)+countSquares(dp,n-i*i);
-            min=Math.min(res,min);
-        }
-        return dp[n]=min;
-    }
+    // private int countSquares(int[] dp,int n){
+    //     if(checkPerfectSquare(n)) return 1; 
+    //     if(dp[n]!=-1) return dp[n];//**
+    //     int min =n;
+    //     for(int i=1;i*i<=n;i++){
+    //         int res= countSquares(dp,i*i)+countSquares(dp,n-i*i);
+    //         min=Math.min(res,min);
+    //     }
+    //     return dp[n]=min;
+    // }
 }
