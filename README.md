@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0300-longest-increasing-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
+| [0416-partition-equal-subset-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0417-pacific-atlantic-water-flow) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0496-next-greater-element-i) |
@@ -214,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0213-house-robber-ii) |
 | [0279-perfect-squares](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0300-longest-increasing-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0416-partition-equal-subset-sum) |
 | [0509-fibonacci-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0509-fibonacci-number) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0746-min-cost-climbing-stairs](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0746-min-cost-climbing-stairs) |
