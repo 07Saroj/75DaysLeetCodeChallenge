@@ -13,7 +13,7 @@ class Solution {
         return dp[idx][amount]=Math.min(skip,take);
     }
     public int coinChange(int[] coins, int amount) {
-        if(amount==0) return 0;
+        // if(amount==0) return 0;
         long[][] dp=new long[coins.length][amount+1];
         for(int i=0;i<dp.length;i++){
             for(int j=0;j<dp[0].length;j++){
