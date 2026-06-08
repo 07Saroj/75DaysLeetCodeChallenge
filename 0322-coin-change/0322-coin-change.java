@@ -5,9 +5,9 @@ class Solution {
         long[][] dp=new long[coins.length][amount+1];
         for(int i=0;i<dp.length;i++){
             for(int j=0;j<dp[0].length;j++){
-                long res=(j==0)? 0: Integer.MAX_VALUE;
+                // long res=(j==0)? 0: Integer.MAX_VALUE;
 
-                long skip=(i>0)? dp[i-1][j]: res;
+                long skip=(i>0)? dp[i-1][j]:((j==0)? 0: Integer.MAX_VALUE);
                 if(j-coins[i]<0) dp[i][j]=skip;
                 else{
                     long pick=1+dp[i][j-coins[i]];
