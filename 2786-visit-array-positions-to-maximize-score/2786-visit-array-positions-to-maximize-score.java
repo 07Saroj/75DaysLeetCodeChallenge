@@ -5,7 +5,7 @@ class Solution {
         
         long skip=Score(idx+1,lastParity,x,dp,nums);
         int currentParity=nums[idx]%2;
-        long panelty=(currentParity!=lastParity)?x:0;
+        long panelty=(currentParity!=lastParity)? x: 0;
         long pick= nums[idx]-panelty+Score(idx+1,currentParity,x,dp,nums);
         
         return dp[idx][lastParity]=Math.max(skip,pick);
@@ -16,9 +16,9 @@ class Solution {
         if(n==1) return nums[0];
         long[][] dp=new long[n][2];
         for(int i=0;i<n;i++){
-            for(int j=0;j<2;j++){
-                dp[i][j]=-1;
-            }
+            dp[i][1]=-1;
+            dp[i][0]=-1;
+        
         }
        
         return nums[0]+Score(1,nums[0]%2,x,dp,nums);
