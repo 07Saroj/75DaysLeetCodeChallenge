@@ -18,8 +18,12 @@ class Solution {
             ls.add(intervals[i]);
             i++;
         }
-
-        return ls.toArray(new int[ls.size()][]);// remember
+        int[][] res=new int[ls.size()][2];
+        for(int j=0;j<ls.size();j++){
+            res[j]=ls.get(j);
+        }
+        return res;
+        // return ls.toArray(new int[ls.size()][]);// remember
         
         
 
