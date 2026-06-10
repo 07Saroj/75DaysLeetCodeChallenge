@@ -14,6 +14,8 @@ class Solution {
         return dp[m][m];
     }
     public int minInsertions(String s1) {
+        String s2=new StringBuilder(s1).reverse().toString();
+        if(s1.equals(s2)) return 0;
         int res=longestPallindromicSeq(s1);
         return s1.length()-res;
     }
