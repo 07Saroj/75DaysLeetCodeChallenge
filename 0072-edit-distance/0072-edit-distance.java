@@ -1,7 +1,7 @@
 class Solution {
     private int findDistance(String word1, String word2, int m, int n,int[][] dp){
-        if(m==0) return dp[m][n]=n;
-        if(n==0) return dp[m][n]=m;
+        if(m==0) return n;
+        if(n==0) return m;
         if(dp[m][n]!=-1) return dp[m][n];
         if(word1.charAt(m-1)==word2.charAt(n-1)) return dp[m][n]=findDistance(word1,word2,m-1,n-1,dp);
         else{
