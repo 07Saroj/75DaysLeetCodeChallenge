@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
+| [0072-edit-distance](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -221,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0198-house-robber) |
