@@ -3,6 +3,7 @@ class Solution {
         if(n==0)return 0;
        int res=0;
         while(n>0){
+            
             if((n%2)==1){
                 res++;
             }
