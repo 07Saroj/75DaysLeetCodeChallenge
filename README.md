@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0516-longest-palindromic-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0583-delete-operation-for-two-strings) |
+| [1092-shortest-common-supersequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Divide and Conquer
@@ -238,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0583-delete-operation-for-two-strings](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0746-min-cost-climbing-stairs](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0746-min-cost-climbing-stairs) |
+| [1092-shortest-common-supersequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1092-shortest-common-supersequence) |
 | [1137-n-th-tribonacci-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1143-longest-common-subsequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1277-count-square-submatrices-with-all-ones) |
