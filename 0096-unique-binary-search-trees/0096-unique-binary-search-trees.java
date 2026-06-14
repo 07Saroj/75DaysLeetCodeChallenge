@@ -5,11 +5,11 @@ class Solution {
         dp[1]=1;
 
         for(int i=2;i<=n;i++){
-            int temp=0;
+            dp[i]=0;
             for(int j=1;j<=i;j++){
-                temp+=dp[j-1]*dp[i-j];
+                dp[i]+=dp[j-1]*dp[i-j];
             }
-            dp[i]=temp;
+            // dp[i]=temp;
         }
 
         return dp[n];
