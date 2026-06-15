@@ -121,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0032-longest-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0208-implement-trie-prefix-tree) |
@@ -301,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
+| [0067-add-binary](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -525,6 +527,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0067-add-binary) |
 ## Trie
 |  |
 | ------- |
@@ -535,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0191-number-of-1-bits) |
