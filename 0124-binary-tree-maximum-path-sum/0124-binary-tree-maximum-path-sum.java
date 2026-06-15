@@ -22,8 +22,8 @@ class Solution {
     int traverse(TreeNode root){
         if(root==null) return 0;
         
-        int left=Math.max(traverse(root.left),0);
-        int right=Math.max(traverse(root.right),0);
+        int left=Math.max(traverse(root.left),0);//if left side sum is -ve we will consider zero
+        int right=Math.max(traverse(root.right),0);//if right side sum is -ve we will consider zero
         int sum=left+root.val+right;
 
         maxSum=Math.max(maxSum,sum);
