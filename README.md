@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-last-stone-weight](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1046-last-stone-weight) |
 | [1095-find-in-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1095-find-in-mountain-array) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [2280-minimum-lines-to-represent-a-line-chart](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2280-minimum-lines-to-represent-a-line-chart) |
 | [2786-visit-array-positions-to-maximize-score](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2786-visit-array-positions-to-maximize-score) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Hash Table
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0621-task-scheduler) |
 | [0977-squares-of-a-sorted-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0977-squares-of-a-sorted-array) |
+| [2280-minimum-lines-to-represent-a-line-chart](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2280-minimum-lines-to-represent-a-line-chart) |
 ## String
 |  |
 | ------- |
@@ -311,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0371-sum-of-two-integers](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0371-sum-of-two-integers) |
 | [0509-fibonacci-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0509-fibonacci-number) |
 | [1137-n-th-tribonacci-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1137-n-th-tribonacci-number) |
+| [2280-minimum-lines-to-represent-a-line-chart](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2280-minimum-lines-to-represent-a-line-chart) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Monotonic Stack
@@ -371,6 +374,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Number Theory
 |  |
 | ------- |
+| [2280-minimum-lines-to-represent-a-line-chart](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2280-minimum-lines-to-represent-a-line-chart) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 ## Depth-First Search
 |  |
@@ -560,4 +564,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
+## Geometry
+|  |
+| ------- |
+| [2280-minimum-lines-to-represent-a-line-chart](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2280-minimum-lines-to-represent-a-line-chart) |
 <!---LeetCode Topics End-->
