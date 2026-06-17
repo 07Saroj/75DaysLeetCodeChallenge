@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-last-stone-weight](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1046-last-stone-weight) |
 | [1095-find-in-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1095-find-in-mountain-array) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2280-minimum-lines-to-represent-a-line-chart](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2280-minimum-lines-to-represent-a-line-chart) |
 | [2786-visit-array-positions-to-maximize-score](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2786-visit-array-positions-to-maximize-score) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
@@ -218,11 +219,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0704-binary-search](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0875-koko-eating-bananas) |
 | [1095-find-in-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1095-find-in-mountain-array) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0011-container-with-most-water) |
 | [0621-task-scheduler](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0621-task-scheduler) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -256,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1143-longest-common-subsequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1143-longest-common-subsequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2786-visit-array-positions-to-maximize-score](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2786-visit-array-positions-to-maximize-score) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 ## Sliding Window
