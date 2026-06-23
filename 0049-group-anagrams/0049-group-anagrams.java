@@ -14,6 +14,8 @@ class Solution {
         List<List<String>> result=new ArrayList<>();
         if(strs == null || strs.length == 0) return new ArrayList<>();
 
+
+        // vrute force
         // if(n<=1){
         //     List<String> l=new ArrayList<>();
         //     l.add(strs[0]);
@@ -42,23 +44,7 @@ class Solution {
                
         }
 
-        // int l=0;
-        // int r=n-1;
-        // while(l<r){
-        //     if(isAnagram(strs[l],strs[r])){
-        //         List<String> l1=new ArrayList<>();
-        //         l1.add(strs[l]);
-        //         l1.add(strs[r]);
-        //         result.add(l1);
-        //         l++;
-        //         r--;
-        //     }else{
-        //         List<String> l1=new ArrayList<>();
-        //         l1.add(strs[r]);
-        //         result.add(l1);
-        //         r--;
-        //     }
-        // }
+       
         
 
         return result;
