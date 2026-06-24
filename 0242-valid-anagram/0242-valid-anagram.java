@@ -14,17 +14,20 @@ class Solution {
         }   
 
         for(int i=0;i<t.length();i++){
-            char ch=t.charAt(i);
+            Character ch=t.charAt(i);
             if(mp1.containsKey(ch)){
                 mp1.put(ch, mp1.get(ch)-1);
+                if(mp1.get(ch)==0){
+                    mp1.remove(ch);
+                }
             }else{
                 return false;
             }
         } 
 
-        for(int val: mp1.values()){
-            if(val != 0) return false;
-        }
+        // for(int val: mp1.values()){
+        //     if(val != 0) return false;
+        // }
 
         return true;
     }
