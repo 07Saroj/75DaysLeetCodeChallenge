@@ -3,7 +3,6 @@ class Solution {
         if(s.length()!=t.length()) return false;
 
         Map<Character, Integer> mp1=new HashMap<>();
-        // Map<String, Integer> mp2=new HashMap<>();
 
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
@@ -19,12 +18,12 @@ class Solution {
             if(mp1.containsKey(ch)){
                 mp1.put(ch, mp1.get(ch)-1);
             }else{
-                mp1.put(ch,1);
+                return false;
             }
         } 
 
-        for(var key: mp1.keySet()){
-            if(mp1.get(key)!=0) return false;
+        for(int val: mp1.values()){
+            if(val != 0) return false;
         }
 
         return true;
