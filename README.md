@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0072-edit-distance) |
 | [0125-valid-palindrome](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0125-valid-palindrome) |
+| [0205-isomorphic-strings](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
