@@ -7,7 +7,7 @@ class Solution {
             char ch2=t.charAt(i);
             if(mp1.containsKey(ch1)){
                 if(mp1.get(ch1)!=ch2) return false;
-            }else if(mp1.containsValue(ch2)){
+            }else if(mp1.containsValue(ch2)){// linear time complexity of searching the value
                 return false;
             }
             else{
