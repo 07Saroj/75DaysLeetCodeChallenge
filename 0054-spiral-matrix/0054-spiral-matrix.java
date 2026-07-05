@@ -24,8 +24,6 @@ class Solution {
                 }
                 buttom--;
             }
-            
-
             //left
             if(left<=right){
                 for(int i=buttom;i>=top;i--){
