@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0057-insert-interval) |
@@ -149,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0053-maximum-subarray) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0190-reverse-bits) |
@@ -240,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0064-minimum-path-sum) |
