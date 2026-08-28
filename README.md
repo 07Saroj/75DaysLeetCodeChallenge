@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0621-task-scheduler) |
 | [0973-k-closest-points-to-origin](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0973-k-closest-points-to-origin) |
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -210,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0283-move-zeroes) |
+| [0295-find-median-from-data-stream](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0647-palindromic-substrings) |
@@ -314,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0232-implement-queue-using-stacks](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0232-implement-queue-using-stacks) |
+| [0295-find-median-from-data-stream](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0295-find-median-from-data-stream) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0707-design-linked-list](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0707-design-linked-list) |
 ## Queue
@@ -578,6 +582,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0295-find-median-from-data-stream) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Memoization
 |  |
