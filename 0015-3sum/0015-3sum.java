@@ -6,15 +6,15 @@ class Solution {
         
         Arrays.sort(nums);
         for(int i=0;i<n;i++){
-            if (nums[i] > 0) break;
-            else if(i>0 && nums[i]==nums[i-1]){
+            if (nums[i] > 0) break;//early check if the 0th element is +ve then the target sum cannot be 0
+            else if(i>0 && nums[i]==nums[i-1]){//skip duplicates
                 continue;
             }else{
                 int j=i+1;
                 int k=n-1;
                 while(j<k){
                     if((nums[j]+nums[k])==(-nums[i])){
-                        result.add(new ArrayList<>(Arrays.asList(nums[i],nums[j],nums[k])));
+                        result.add(Arrays.asList(nums[i],nums[j],nums[k]));
                         j++;
                         k--;
                         // NEW: Skip all duplicate values for j
