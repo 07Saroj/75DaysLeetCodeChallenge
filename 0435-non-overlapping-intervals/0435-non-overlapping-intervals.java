@@ -2,10 +2,6 @@ class Solution {
     static class interval{
         int start;
         int finish;
-
-        public String toString(){
-            return start+"-"+finish;
-        }    
     }
     static class intervalComparator implements Comparator<interval>{
         public int compare(interval I1,interval I2){
@@ -27,7 +23,7 @@ class Solution {
             Intervals.add(I);
         }
         Intervals.sort(new intervalComparator());
-        System.out.println(Intervals);
+        
         int res=0;
         interval prevI=Intervals.get(0);
         for(int i=1;i<Intervals.size();i++){
