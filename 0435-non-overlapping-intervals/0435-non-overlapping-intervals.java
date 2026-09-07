@@ -25,19 +25,15 @@ class Solution {
         Intervals.sort(new intervalComparator());
         
         int res=0;
-        interval prevI=Intervals.get(0);
+        int prevI_finish=Intervals.get(0).finish;
         for(int i=1;i<Intervals.size();i++){
             interval currI=Intervals.get(i);
-            if(prevI.finish>currI.start){//overlap
-                if(prevI.finish>currI.finish){//remove the longest finish time
-                    res+=1;
-                    prevI=currI;
-                }else{
-                    res+=1;
-                }
-            }else if(prevI.finish<=currI.start){
-                prevI=currI;
-            }
+            if(prevI_finish>currI.start){//overlap
+                prevI_finish=Math.min(prevI_finish,currI.finish);
+                res++;
+            }else{
+                prevI_finish=currI.finish;
+            }   
             
         }
 
