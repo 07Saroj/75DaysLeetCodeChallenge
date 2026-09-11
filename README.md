@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0054-spiral-matrix) |
@@ -521,6 +522,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0022-generate-parentheses) |
+| [0046-permutations](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0046-permutations) |
 | [0212-word-search-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
 ## String Matching
