@@ -525,6 +525,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0051-n-queens) |
+| [0052-n-queens-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0052-n-queens-ii) |
 | [0212-word-search-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
 ## String Matching
@@ -615,4 +616,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0051-n-queens) |
+| [0052-n-queens-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0052-n-queens-ii) |
 <!---LeetCode Topics End-->
