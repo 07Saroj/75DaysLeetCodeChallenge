@@ -1,7 +1,7 @@
 class Solution {
     static void helper(int[] nums,List<Integer> ls,boolean[]isVisited,List<List<Integer>> ans){
         if(ls.size()==nums.length){
-            ans.add(new ArrayList(ls));
+            ans.add(new ArrayList(ls));//we have to create a shallow copy of the list before storing it. Passing ls directly would result in adding empty lists due to reference sharing.
             return;
         }
         
