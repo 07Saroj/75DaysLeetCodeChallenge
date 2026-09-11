@@ -26,23 +26,47 @@ class Solution {
     }
 
     private static boolean isSafe(char[][] board, int row, int col) {
-        int n = board.length;
-
-        // Check column above
-        for (int i = 0; i < row; i++) {
-            if (board[i][col] == 'Q') return false;
+        int n= board.length;
+        //check row
+        for(int j=0;j<n;j++){
+            if(board[row][j]=='Q') return false;
         }
-
-        // Check top-left diagonal
-        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
-            if (board[i][j] == 'Q') return false;
+        //check col
+        for (int i = 0; i < n; i++) {
+            if(board[i][col]=='Q') return false;
         }
-
-        // Check top-right diagonal
-        for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {
-            if (board[i][j] == 'Q') return false;
+        //check northeast
+        int i=row;
+        int j=col;
+        while(i>=0 && j<n){
+            if(board[i][j]=='Q') return false;
+            i--;
+            j++;
         }
-
+        //check southwest
+        i=row;
+        j=col;
+        while(i<n && j<n){
+            if(board[i][j]=='Q') return false;
+            i++;
+            j++;
+        }
+        //check southwest
+        i=row;
+        j=col;
+        while(i<n && j>=0){
+            if(board[i][j]=='Q') return false;
+            i++;
+            j--;
+        }
+        //check southwest
+        i=row;
+        j=col;
+        while(i>=0 && j>=0){
+            if(board[i][j]=='Q') return false;
+            i--;
+            j--;
+        }
         return true;
     }
 }
