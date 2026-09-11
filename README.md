@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0056-merge-intervals) |
@@ -523,6 +524,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0051-n-queens) |
 | [0212-word-search-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0494-target-sum) |
 ## String Matching
@@ -609,4 +611,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0973-k-closest-points-to-origin) |
+## Algorithm X
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
