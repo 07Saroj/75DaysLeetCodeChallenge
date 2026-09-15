@@ -1,83 +1,41 @@
 class Solution {
-    public boolean isValidSudoku(char[][] board) {
-        
-       if(!checkRows(board) || !checkCols(board)) return false;
-
-       for(int i=0;i<9;i+=3){
-        for(int j=0;j<9;j+=3){
-            if(!checkBox(board,i,j))return false;
-        }
-       }
-       return true;
-
-    }
-
-    boolean checkRows(char[][] board){
-        
-        for(int i=0;i<9;i++){
-            int[] count=new int[10];
-            for(int j=0;j<9;j++){
-                if(board[i][j]=='.'){ 
-                    continue;
-                }else{
-                    int idx=board[i][j]-'0';
-                    if(count[idx]<1){
-                        count[idx]++;
-                    }else{
-                        return false;
-                    }
-                }
-                
-                
-            }
-        }
-        return true;
-    }
-
-    boolean checkCols(char[][] board){
-        
+    private static boolean isValid(char[][] board,int row,int col,char num){
+        //check row
         for(int j=0;j<9;j++){
-            int[] count=new int[10];
-            for(int i=0;i<9;i++){
-                if(board[i][j]=='.'){ 
-                    continue;
-                }else{
-                    int idx=board[i][j]-'0';
-                    if(count[idx]<1){
-                        count[idx]++;
-                    }else{
-                        return false;
-                    }
-                }
-                
-                
+            if(board[row][j]==num){
+                return false;
+            }
+        }
+        //check cols
+        for(int i=0;i<9;i++){
+            if(board[i][col]==num){
+                return false;
+            }
+        }
+        //check 3x3 grid
+        //To get the starting point of the grid :
+        // we 1st divide the row/3 then multiply by e
+        //eg.:(4,3)->4/3=1,3/3=1 .1x3=3,1x3=3.So startig point for the coordinate (4,3) is (3,3).
+        int sRow=(row/3)*3;
+        int sCol=(col/3)*3;
+        for(int i=sRow;i<sRow+3;i++){
+            for(int j=sCol;j<sCol+3;j++){
+                if(board[i][j]==num)return false;
             }
         }
         return true;
-    }
 
-    boolean checkBox(char[][] board,int rstart,int cstart){
-        
-        
-      
-        int[] count =new int[10];
-        for(int i=rstart;i<rstart+3;i++){
-            for(int j=cstart;j<cstart+3;j++){
-                
-                char val=board[i][j];
-                if(val!='.'){
-                    int idx=val-'0';
-                    if(count[idx]<1){
-                        count[idx]++;
-                    }else{
-                        return false;
-                    }
-                }
-                    
+    }
+    public boolean isValidSudoku(char[][] board) {
+        for(int i=0;i<9;i++){
+            for(int j=0;j<9;j++){
+                char num=board[i][j];
+                if(num=='.')continue;
+                board[i][j]='.';
+                if(isValid(board,i,j,num)==false) return false;
+                board[i][j]=num;
             }
         }
-
-        return true ;
-        
+        return true;
     }
 }
