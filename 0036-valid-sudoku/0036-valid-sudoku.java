@@ -14,7 +14,7 @@ class Solution {
         }
         //check 3x3 grid
         //To get the starting point of the grid :
-        // we 1st divide the row/3 then multiply by e
+        // we 1st divide the row/3 then multiply by 3
         //eg.:(4,3)->4/3=1,3/3=1 .1x3=3,1x3=3.So startig point for the coordinate (4,3) is (3,3).
         int sRow=(row/3)*3;
         int sCol=(col/3)*3;
