@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0037-sudoku-solver) |
 | [0042-trapping-rain-water](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0037-sudoku-solver) |
 | [0049-group-anagrams](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0133-clone-graph) |
@@ -363,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0064-minimum-path-sum) |
@@ -527,6 +530,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0037-sudoku-solver) |
 | [0046-permutations](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0052-n-queens-ii) |
@@ -620,6 +624,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Algorithm X
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0052-n-queens-ii) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
