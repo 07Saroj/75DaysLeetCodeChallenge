@@ -442,6 +442,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0572-subtree-of-another-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0572-subtree-of-another-tree) |
 | [0733-flood-fill](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
+| [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2596-check-knight-tour-configuration](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2596-check-knight-tour-configuration) |
 ## Breadth-First Search
@@ -464,6 +465,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0530-minimum-absolute-difference-in-bst](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0547-number-of-provinces](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
+| [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2596-check-knight-tour-configuration](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2596-check-knight-tour-configuration) |
 ## Tree
@@ -560,6 +562,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
+| [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [0997-find-the-town-judge](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Union-Find
