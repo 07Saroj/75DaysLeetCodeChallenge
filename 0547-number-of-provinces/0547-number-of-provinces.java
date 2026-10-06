@@ -2,14 +2,14 @@ class Solution {
     public int findCircleNum(int[][] isConnected) {
         int n=isConnected.length;
         boolean[] isVisited= new boolean[n];
-        int p=0;
+        int count=0;
         for(int i=0;i<n;i++){
             if(!isVisited[i]){
                 bfs(isConnected,isVisited,i);
-                p++;
+                count++;
             }
         }
-        return p;
+        return count;
     }
     static void bfs(int[][] isConnected,boolean[] isVisited,int i){
         int n=isConnected.length;
