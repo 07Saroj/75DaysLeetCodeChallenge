@@ -443,6 +443,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0572-subtree-of-another-tree) |
 | [0733-flood-fill](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
+| [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2596-check-knight-tour-configuration](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2596-check-knight-tour-configuration) |
 ## Breadth-First Search
@@ -466,6 +467,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
+| [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 | [2596-check-knight-tour-configuration](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2596-check-knight-tour-configuration) |
 ## Tree
@@ -564,6 +566,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [0997-find-the-town-judge](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
+| [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Union-Find
 |  |
@@ -571,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
+| [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 ## Topological Sort
 |  |
 | ------- |
