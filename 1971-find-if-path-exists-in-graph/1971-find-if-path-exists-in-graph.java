@@ -12,25 +12,20 @@ class Solution {
             adj.get(v).add(u);
         }
         boolean[] isVisited= new boolean[n];
-        bfs(source, adj,isVisited,destination);
+        dfs(source, adj,isVisited,destination);
 
         return isVisited[destination];
     }
-
-    static void bfs(int i,List<List<Integer>> adj,boolean[] isVisited,int dest){
-        Queue<Integer> q =new LinkedList<>();
-        q.add(i);
+    static void dfs(int i,List<List<Integer>> adj,boolean[] isVisited,int dest){
         isVisited[i]=true;
-        while(!q.isEmpty()){
-            int front=q.remove();
-            List<Integer> ls=adj.get(front);//eg 0: 1,2
-            for(int ele : ls){
-                if(!isVisited[ele]){
-                    q.add(ele);
-                    isVisited[ele]=true;
-                    if(ele==dest) return;
-                }
+        if(i==dest) return ;
+        List<Integer> ls= adj.get(i);
+        for(int ele: ls){
+            if(!isVisited[ele]){
+                dfs(ele, adj,isVisited,dest);
             }
         }
     }
+
+    
 }
