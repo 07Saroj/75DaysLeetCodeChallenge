@@ -14,22 +14,23 @@ class Solution {
         }
         //Kahn's Algorithm
         Queue<Integer> q= new LinkedList<>();
-        List<Integer> topo= new ArrayList<>();
-        
+        // List<Integer> topo= new ArrayList<>();
+        int completed=0;
         for(int i=0;i<numCourses;i++){
             if(inDegree[i]==0) q.add(i);
             
         }
         while(!q.isEmpty()){
             int front=q.remove();
-            topo.add(front);
+            // topo.add(front);
+            completed++;
             for(int ele : adj.get(front)){
                 inDegree[ele]--;
                 if(inDegree[ele]==0) q.add(ele);
             }
         }
 
-        return topo.size()==numCourses;
+        return completed==numCourses;
 
     }
 }
