@@ -1,43 +1,35 @@
 class Solution {
-    
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> graph=new ArrayList<>();
-        int[]inDegree=new int[numCourses];
-        for (int i = 0; i < numCourses; i++) {
-            graph.add(new ArrayList<>());
-        }
-
-        for (int[] row : prerequisites) {
-            int course=row[0];
-            int needed=row[1];
-
-            graph.get(needed).add(course);
-            inDegree[course]++;
-        }
-
-        Queue<Integer> q= new LinkedList<>();
-
+        int n= prerequisites.length;
+        List<List<Integer>> adj= new ArrayList<>();
+        int[] inDegree= new int[numCourses];
         for(int i=0;i<numCourses;i++){
-            if(inDegree[i]==0){
-                q.add(i);
-            }
+            adj.add(new ArrayList<>());
         }
-        List<Integer> res=new ArrayList<>();
-
+        for(int i=0;i<n;i++){
+            int u=prerequisites[i][0];
+            int v=prerequisites[i][1];
+            adj.get(v).add(u);// v -> u
+            inDegree[u]++;
+        }
+        //Kahn's Algorithm
+        Queue<Integer> q= new LinkedList<>();
+        List<Integer> topo= new ArrayList<>();
+        
+        for(int i=0;i<numCourses;i++){
+            if(inDegree[i]==0) q.add(i);
+            
+        }
         while(!q.isEmpty()){
-            int completedCourse=q.poll();
-            res.add(completedCourse);
-
-            for(int EGC: graph.get(completedCourse)){
-                inDegree[EGC]--;
-                if(inDegree[EGC]==0){
-                    q.add(EGC);
-                }
+            int front=q.remove();
+            topo.add(front);
+            for(int ele : adj.get(front)){
+                inDegree[ele]--;
+                if(inDegree[ele]==0) q.add(ele);
             }
         }
-        return numCourses==res.size();
+
+        return topo.size()==numCourses;
 
     }
-
-    
 }
