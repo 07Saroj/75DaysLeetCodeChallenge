@@ -1,47 +1,36 @@
 class Solution {
-    public int[] findOrder(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> graph=new ArrayList<>();
-        int[]inDegree=new int[numCourses];
-        for (int i = 0; i < numCourses; i++) {
-            graph.add(new ArrayList<>());
+    public int[] findOrder(int numCourses, int[][] pre) {
+        int n= pre.length;
+        List<List<Integer>> adj= new ArrayList<>();
+        int[] inDegree = new int[numCourses];
+        for(int i=0;i<numCourses;i++){
+            adj.add(new ArrayList<>());
+        }
+        for(int i=0;i<n;i++){
+            int u= pre[i][0];
+            int v= pre[i][1];
+            adj.get(v).add(u);
+            inDegree[u]++;
         }
 
-        for (int[] row : prerequisites) {
-            int course=row[0];
-            int needed=row[1];
-
-            graph.get(needed).add(course);
-            inDegree[course]++;
-        }
-
-        Queue<Integer> q= new LinkedList<>();
+        //kahn's Algo
+        Queue<Integer> q = new LinkedList<>();
+        int[] topo= new int[numCourses];
+        int j=0;
 
         for(int i=0;i<numCourses;i++){
-            if(inDegree[i]==0){
-                q.add(i);
-            }
+            if(inDegree[i]==0) q.add(i);
         }
-        List<Integer> res=new ArrayList<>();
 
         while(!q.isEmpty()){
-            int completedCourse=q.poll();
-            res.add(completedCourse);
-
-            for(int EGC: graph.get(completedCourse)){
-                inDegree[EGC]--;
-                if(inDegree[EGC]==0){
-                    q.add(EGC);
-                }
+            int front=q.remove();
+            topo[j++]=front;
+            for(int ele : adj.get(front)){
+                inDegree[ele]--;
+                if(inDegree[ele]==0) q.add(ele);
             }
         }
-
-        int[] resArr=new int[numCourses];
-        for(int i=0;i<res.size();i++){
-            resArr[i]=res.get(i);
-        }
-        if(numCourses==res.size()){
-            return resArr;
-        }
-        return new int[0];
+        if(j!=numCourses) return new int[0];
+        return topo;
     }
 }
