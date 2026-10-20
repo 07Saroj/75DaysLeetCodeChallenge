@@ -444,6 +444,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0572-subtree-of-another-tree) |
 | [0733-flood-fill](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
@@ -470,6 +471,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
@@ -570,6 +572,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [0997-find-the-town-judge](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
@@ -587,6 +590,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 ## Interactive
 |  |
 | ------- |
@@ -662,4 +666,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0207-course-schedule) |
+## Kosaraju's Algorithm
+|  |
+| ------- |
+| [0802-find-eventual-safe-states](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
+## Tarjan's SCC Algorithm
+|  |
+| ------- |
+| [0802-find-eventual-safe-states](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
