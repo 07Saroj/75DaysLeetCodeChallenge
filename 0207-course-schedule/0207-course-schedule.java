@@ -1,8 +1,9 @@
 class Solution {
+    static boolean ans;
     public boolean canFinish(int numCourses, int[][] prerequisites) {
+        ans=true;
         int n= prerequisites.length;
         List<List<Integer>> adj= new ArrayList<>();
-        int[] inDegree= new int[numCourses];
         for(int i=0;i<numCourses;i++){
             adj.add(new ArrayList<>());
         }
@@ -10,27 +11,29 @@ class Solution {
             int u=prerequisites[i][0];
             int v=prerequisites[i][1];
             adj.get(v).add(u);// v -> u
-            inDegree[u]++;
-        }
-        //Kahn's Algorithm
-        Queue<Integer> q= new LinkedList<>();
-        // List<Integer> topo= new ArrayList<>();
-        int completed=0;
-        for(int i=0;i<numCourses;i++){
-            if(inDegree[i]==0) q.add(i);
             
         }
-        while(!q.isEmpty()){
-            int front=q.remove();
-            // topo.add(front);
-            completed++;
-            for(int ele : adj.get(front)){
-                inDegree[ele]--;
-                if(inDegree[ele]==0) q.add(ele);
+        boolean[] isVisited= new boolean[numCourses];
+        boolean[] path = new boolean[numCourses];
+        for(int i=0;i<numCourses;i++){
+            if(!isVisited[i]){
+                dfs(i,adj,isVisited,path);
             }
         }
+        return ans;
+    }
 
-        return completed==numCourses;
-
+    private static void dfs(int i,List<List<Integer>> adj,boolean[] isVisited,boolean[] path){
+        isVisited[i]=true;
+        path[i]=true;
+        for(int ele : adj.get(i)){
+            if(path[ele]){
+                ans=false;
+                return;
+            }
+            if(!isVisited[ele])dfs(ele,adj,isVisited,path);
+            
+        }
+        path[i]=false;
     }
 }
