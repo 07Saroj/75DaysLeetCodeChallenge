@@ -74,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-last-stone-weight](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1046-last-stone-weight) |
 | [1095-find-in-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1095-find-in-mountain-array) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1514-path-with-maximum-probability](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1514-path-with-maximum-probability) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2280-minimum-lines-to-represent-a-line-chart](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2280-minimum-lines-to-represent-a-line-chart) |
 | [2596-check-knight-tour-configuration](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2596-check-knight-tour-configuration) |
@@ -179,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0743-network-delay-time) |
 | [0973-k-closest-points-to-origin](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1046-last-stone-weight) |
+| [1514-path-with-maximum-probability](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1514-path-with-maximum-probability) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -579,6 +581,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-find-eventual-safe-states](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [0997-find-the-town-judge](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
+| [1514-path-with-maximum-probability](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1514-path-with-maximum-probability) |
 | [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Union-Find
@@ -682,8 +685,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1514-path-with-maximum-probability) |
 ## Dijkstra's Algorithm
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1514-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
