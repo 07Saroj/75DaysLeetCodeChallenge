@@ -33,7 +33,7 @@ class Solution {
             adj.get(v).add(new Pair(u,prob));
         }
         double[] probArr= new double[n];
-        Arrays.fill(probArr,-1);
+        Arrays.fill(probArr,0);
         probArr[start_node]=1;
         PriorityQueue<Pair> pq= new PriorityQueue<>(new ProbComparator());
         pq.add(new Pair(start_node,1));
