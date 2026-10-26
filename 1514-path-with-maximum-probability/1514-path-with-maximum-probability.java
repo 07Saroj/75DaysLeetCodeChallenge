@@ -41,6 +41,7 @@ class Solution {
             Pair top=pq.remove();
             int node=top.node;
             double prob=top.prob;
+            if(prob<probArr[node]) continue;
             for(Pair p : adj.get(node)){
                 double total_prob=prob*p.prob;
                 if(total_prob > probArr[p.node]){
