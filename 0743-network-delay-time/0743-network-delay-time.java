@@ -1,23 +1,26 @@
 class Solution {
-    static class Pair{
+    static class Pair implements Comparable<Pair> {
         int node, cost;
         Pair(int node,int c){
             this.node=node;
             this.cost=c;
         }
-
-    }
-    private static class CostComparator implements Comparator<Pair>{
-        public int compare(Pair p1, Pair p2){
-            if(p1.cost>p2.cost){
-                return 1;
-            }else if(p1.cost<p2.cost){
-                return -1;
-            }else{
-                return 0;
-            }
+        public int compareTo(Pair p){
+            if(this.cost==p.cost) return this.node-p.node;
+            return this.cost-p.cost;
         }
     }
+    // private static class CostComparator implements Comparator<Pair>{
+    //     public int compare(Pair p1, Pair p2){
+    //         if(p1.cost>p2.cost){
+    //             return 1;
+    //         }else if(p1.cost<p2.cost){
+    //             return -1;
+    //         }else{
+    //             return 0;
+    //         }
+    //     }
+    // }
     public int networkDelayTime(int[][] times, int n, int k) {
         List<List<Pair>> adj = new ArrayList<>();
         for(int i=0;i<n+1;i++) adj.add(new ArrayList());
@@ -31,7 +34,7 @@ class Solution {
         CostArr[k]=0;
         CostArr[0]=-1;
         
-        PriorityQueue<Pair> pq = new PriorityQueue<>(new CostComparator());
+        PriorityQueue<Pair> pq = new PriorityQueue<>();
         pq.add(new Pair(k,0));
         while(!pq.isEmpty()){
             Pair top=pq.remove();
