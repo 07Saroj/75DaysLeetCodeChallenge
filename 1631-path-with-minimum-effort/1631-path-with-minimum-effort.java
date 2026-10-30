@@ -26,46 +26,31 @@ class Solution {
 
         PriorityQueue<triplet> pq= new PriorityQueue<>();
         pq.add(new triplet(0,0,0));
+        int[][] dir={{-1,0},{0,-1},{+1,0},{0,+1}};
 
         while(!pq.isEmpty()){
             triplet top=pq.remove();
             int row= top.row;
             int col=top.col;
-            int dist=top.dist;
-            if(row==m-1 && col==n-1)return dist;
-            if(dist>effortArr[row][col]) continue;
-            if(row-1>=0) {
-                int effort=Math.max(dist,Math.abs(heights[row][col]-heights[row-1][col]));
-                if(effort<effortArr[row-1][col]){
-                    effortArr[row-1][col]=effort;
-                    pq.add(new triplet(row-1,col,effort));
+            int effort=top.dist;
+            if(row==m-1 && col==n-1)return effort;
+            if(effort>effortArr[row][col]) continue;
+            for(int i=0;i<dir.length;i++){
+                int nRow=row+dir[i][0];
+                int nCol=col+dir[i][1];
+                if(nRow>=0 && nRow<m && nCol>=0 && nCol<n){
+                    int nEffort=Math.max(effort,Math.abs(heights[row][col]-heights[nRow][nCol]));
+                    if(nEffort<effortArr[nRow][nCol]){
+                        effortArr[nRow][nCol]=nEffort;
+                        pq.add(new triplet(nRow,nCol,nEffort));
+                    }
                 }
-            } 
-            if(row+1<m){
-                int effort=Math.max(dist,Math.abs(heights[row][col]-heights[row+1][col]));
-                if(effort<effortArr[row+1][col]){
-                    effortArr[row+1][col]=effort;
-                    pq.add(new triplet(row+1,col,effort));
-                }
-            } 
-            if(col-1>=0) {
-                int effort=Math.max(dist,Math.abs(heights[row][col]-heights[row][col-1]));
-                if(effort<effortArr[row][col-1]){
-                    effortArr[row][col-1]=effort;
-                    pq.add(new triplet(row,col-1,effort));
-                }
-            }
-            if(col+1<n) {
-                int effort=Math.max(dist,Math.abs(heights[row][col]-heights[row][col+1]));
-                if(effort<effortArr[row][col+1]){
-                    effortArr[row][col+1]=effort;
-                    pq.add(new triplet(row,col+1,effort));
-                }    
+
             }
         }
         
 
-        return 0;
+        return effortArr[m-1][n-1];
 
 
     }
