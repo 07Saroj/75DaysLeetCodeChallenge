@@ -6,17 +6,12 @@ class Solution {
             this.cost=cost;
         }
     }
-    static class Triplet implements Comparable<Triplet>{
+    static class Triplet{
         int dest,cost,stop;
         Triplet(int dest,int cost,int stop){
             this.dest=dest;
             this.cost=cost;
             this.stop=stop;
-        }
-
-        public int compareTo(Triplet t){
-            if(this.stop==t.stop) return Integer.compare(this.cost,t.cost);
-            return Integer.compare(this.stop,t.stop);
         }
     }
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
@@ -33,7 +28,7 @@ class Solution {
         int[] ans=new int[n];
         Arrays.fill(ans,Integer.MAX_VALUE);
         ans[src]=0;
-        PriorityQueue<Triplet> pq= new PriorityQueue<>();
+        Queue<Triplet> pq= new LinkedList<>();
         pq.add(new Triplet(src,0,0));
         while(!pq.isEmpty()){
             Triplet top= pq.remove();
