@@ -13,18 +13,6 @@ class Solution {
     }
     public int minCostConnectPoints(int[][] points) {
         int n=points.length;
-        List<List<Edge>> adj= new ArrayList<>();
-        for(int i=0;i<n;i++){
-            adj.add(new ArrayList<>());
-        }
-        for(int i=0;i<n-1;i++){
-            for(int j=i+1;j<n;j++){
-                int xi=points[i][0],yi=points[i][1],xj=points[j][0],yj=points[j][1];
-                int cost=Math.abs(xi-xj)+Math.abs(yi-yj);
-                adj.get(i).add(new Edge(j,i,cost));
-                adj.get(j).add(new Edge(i,j,cost));
-            }
-        }
         boolean[] vis=new boolean[n];
         int count=0;
         int sum=0;
@@ -40,13 +28,12 @@ class Solution {
             }    
             vis[node]=true;
             if(count==n) break;
-            
-            for(Edge e : adj.get(node)){
-                if(e.parent!=parent && vis[e.node]==false){
-                    pq.add(e);
-                }
-            }
-
+            for(int i=0;i<n;i++){
+                if(i==node || vis[i]==true) continue;
+                int xi=points[i][0],yi=points[i][1],xj=points[node][0],yj=points[node][1];
+                int cost=Math.abs(xi-xj)+Math.abs(yi-yj);
+                pq.add(new Edge(i,node,cost));// node, parent,cost
+            }    
         }
         return sum;
     }
