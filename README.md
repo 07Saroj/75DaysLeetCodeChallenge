@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1095-find-in-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1095-find-in-mountain-array) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1514-path-with-maximum-probability](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1514-path-with-maximum-probability) |
+| [1584-min-cost-to-connect-all-points](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [2280-minimum-lines-to-represent-a-line-chart](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2280-minimum-lines-to-represent-a-line-chart) |
@@ -593,6 +594,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0841-keys-and-rooms](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0841-keys-and-rooms) |
 | [0997-find-the-town-judge](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0997-find-the-town-judge) |
 | [1514-path-with-maximum-probability](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1514-path-with-maximum-probability) |
+| [1584-min-cost-to-connect-all-points](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1584-min-cost-to-connect-all-points) |
 | [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Union-Find
@@ -602,6 +604,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0785-is-graph-bipartite) |
+| [1584-min-cost-to-connect-all-points](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
 | [1971-find-if-path-exists-in-graph](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1971-find-if-path-exists-in-graph) |
 ## Topological Sort
@@ -705,4 +708,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1631-path-with-minimum-effort) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1584-min-cost-to-connect-all-points) |
+## Prim's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1584-min-cost-to-connect-all-points) |
+## Kruskal's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1584-min-cost-to-connect-all-points) |
+## Borůvka's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/07Saroj/75DaysLeetCodeChallenge/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
