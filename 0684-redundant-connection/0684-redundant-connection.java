@@ -26,10 +26,6 @@ class Solution {
         for(int i=0;i<n;i++){
             int u=edges[i][0];
             int v=edges[i][1];
-            if(find(u)==find(v)){
-                extraEdge[0]=u;
-                extraEdge[1]=v;
-            }
             union(u,v);
         }
         return extraEdge;
