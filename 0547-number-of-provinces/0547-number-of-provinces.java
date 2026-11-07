@@ -20,9 +20,8 @@ class Solution {
         parent[0]=-1;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                if(i==j) continue;
                 // edge is from i+1 to j+1
-                if(isConnected[i][j]==1){
+                if(i!=j && isConnected[i][j]==1){
                     union(i+1,j+1);//connecting group leaders of i+1 and j+1
                 }
             }
