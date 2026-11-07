@@ -1,12 +1,16 @@
 class Solution {
     static int[] parent;
+    static int[] size;
     public void union(int u,int v){
-        int L1=find(u);
-        int L2=find(v);
-        if(L1!=L2){
-            parent[L2]=L1;// OR parent[L2]=L1;
-        }// If group leaders are same that means they are already in the same component
-        
+        u =find(u);
+        v=find(v);
+        if(size[u]>size[v]){ // u should be parent of b
+            parent[v]=u;
+            size[u]+=size[v];
+        }else{
+            parent[u]=v;
+            size[v]+=size[u];
+        }
     }
     static int find(int a){
         if(parent[a]==a) return a;
@@ -16,7 +20,11 @@ class Solution {
         //Disjoint set example
         int n=isConnected.length;
         parent= new int[n+1];
-        for(int i=1;i<=n;i++) parent[i]=i;
+        size= new int[n+1];
+        for(int i=1;i<=n;i++) {
+            parent[i]=i;
+            size[i]=1;
+        }    
         parent[0]=-1;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
