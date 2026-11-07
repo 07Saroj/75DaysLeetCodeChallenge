@@ -4,7 +4,7 @@ class Solution {
         int L1=find(u);
         int L2=find(v);
         if(L1!=L2){
-            parent[L1]=L2;// OR parent[L2]=L1;
+            parent[L2]=L1;// OR parent[L2]=L1;
         }// If group leaders are same that means they are already in the same component
         
     }
