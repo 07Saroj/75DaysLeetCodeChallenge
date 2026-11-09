@@ -1,37 +1,39 @@
 class Solution {
-    static boolean res;
-    public boolean isBipartite(int[][] graph) {
-        int n=graph.length;
-        int[] isVisited=new int[n];
-        Arrays.fill(isVisited,-1);
-        res=true;
-        for(int i=0;i<n;i++){
-            if(i==0||isVisited[i]==-1){
-                if(res==false) return res;
-                bfs(i,graph,isVisited);
-            }
+    static int[] parent;
+    static boolean[] parity;
+    static void union(int u,int v){
+        int L1=find(u);
+        int L2=find(v);
+        if(find(u)!=find(v)){
+            parent[L2]=L1;
         }
-        return res;
     }
-
-    private static void bfs(int i,int[][] graph,int[] isVisited){
-        isVisited[i]=0;// 0-> blue, 1 -> red and initialisation
-        Queue<Integer> q= new LinkedList<>();
-        q.add(i);
-        while(!q.isEmpty()){
-            int front=q.remove();
-            int color=isVisited[front];
-            int[] arr=graph[front];
-            for(int ele : arr){
-                if(isVisited[ele]==color){
-                    res=false;
-                    return;
+    static int find(int a){
+        if(parent[a]==a) return a;
+        int Leader=find(parent[a]);
+        parent[a]=Leader;
+        return Leader;
+    }
+    public boolean isBipartite(int[][] graph) {
+        int n= graph.length;
+        parent= new int[n];
+        parity=new boolean[n];
+        for(int i=0;i<n;i++) parent[i]=i;
+        // In DSU we will not repeat the same edge
+        for(int u=0;u<n;u++){
+            for(int v: graph[u]){
+                if(u<v){// To avoid edge repetation
+                    if(find(u)!=find(v)){
+                    union(u,v);
+                    parity[v]=!parity[u];
+                    }
+                    if(find(u)==find(v) && parity[u]==parity[v]){
+                        return false;
+                    }
                 }
-                if(isVisited[ele]==-1){
-                    q.add(ele);
-                    isVisited[ele]=1-color;
-                }
+                
             }
         }
+        return true;
     }
 }
